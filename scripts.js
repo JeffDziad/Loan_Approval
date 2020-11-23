@@ -93,7 +93,7 @@ $(document).ready(function (){
                 loanStatus = "Denied";
             }
         }
-        $("#loanOutput").append(`Status: ${loanStatus}`);
+        $("#loanOutput").text(`Status: ${loanStatus}`);
     }
 });
 

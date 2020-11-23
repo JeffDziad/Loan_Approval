@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Approval</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1 id="headerTitle">~Loan Approval~</h1>
+</header>
+
+<div id="loanForm">
+    <h1 id="formTitle">Check your approval...</h1>
+    <div id="formInputs">
+        <form id="loanApprovalForm">
+            <label for="salary">Salary: </label><input type="number" id="salary" name="salary" placeholder="Dollars ($)" data-error="salaryError" style="width: 105px; height: 20px; font-size: 18px; text-align: center">
+            <br><br>
+            <label for="credit">Credit Score: </label><input type="number" id="credit" name="credit" placeholder="Points" data-error="creditError" style="width: 70px; height: 20px; font-size: 18px; text-align: center">
+            <br><br>
+            <label for="months">Months at Job: </label><input type="number" id="months" name="months" placeholder="Months" data-error="monthError" style="width: 75px; height: 20px; font-size: 18px; text-align: center">
+        <div id="buttonContainer"><button>Check Approval</button></div>
+        <br>
+        </form>
+    </div>
+    <fieldset class="output">
+        <legend>Output</legend>
+        <textarea class="output" id="loanOutput" readonly></textarea>
+    </fieldset>
+    <br><br><br><br>
+    <fieldset class="errorsField">
+        <legend>Errors</legend>
+    </fieldset>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

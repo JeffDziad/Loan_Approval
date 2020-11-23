@@ -1,0 +1,196 @@
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+body
+{
+    background-color: #2F2FA2;
+}
+
+header
+{
+    background-color: #1a1b5e;
+    height: 100px;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    -webkit-box-shadow: 0px 12px 13px 2px #000;
+    -moz-box-shadow: 0px 12px 13px 2px #000;
+    box-shadow: 0px 12px 13px 2px #000;
+    border-bottom: #F64C72 solid 2px;
+    border-radius: 0px 0px 9px 9px;
+}
+
+#headerTitle
+{
+    font-family: Impact, Charcoal, SansSerif;
+    font-size: 65px;
+    color: #F64C72;
+    padding-top: 15px;
+}
+
+#loanForm
+{
+    background-color: #1a1b5e;
+    padding: 10px;
+    height: 450px;
+    width: 414px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #F64C72 solid 4px;
+    -webkit-box-shadow: 0px 0px 40px 25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 25px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 25px rgba(0,0,0,0.75);
+    border-radius: 25px;
+}
+
+#formTitle
+{
+    margin-top: 10px;
+    color: #F64C72;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+form
+{
+    padding-left: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+label
+{
+    font-size: 25px;
+}
+
+.error
+{
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+input
+{
+    border-radius: 10px;
+    outline: none;
+}
+
+label[for=salary]
+{
+    margin-left: 40px;
+}
+
+#formInputs
+{
+    margin-left: -80px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#salary:hover
+{
+    font-weight: bold;
+    border: #F64C72 solid 2px;
+}
+
+#salary:focus
+{
+    font-weight: normal;
+    border: #F64C72 solid 2px;
+}
+
+#credit:hover
+{
+    font-weight: bold;
+    border: #F64C72 solid 2px;
+}
+
+#credit:focus
+{
+    font-weight: normal;
+    border: #F64C72 solid 2px;
+}
+
+#months:hover
+{
+    font-weight: bold;
+    border: #F64C72 solid 2px;
+}
+
+#months:focus
+{
+    font-weight: normal;
+    border: #F64C72 solid 2px;
+}
+
+#buttonContainer
+{
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+button
+{
+    height: 35px;
+    width: 175px;
+    border-radius: 25px;
+    background-color: #1a1b5e;
+    color: #F64C72;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+button:hover
+{
+    background-color: white;
+    border: #F64C72 solid 2px;
+    transition-duration: .2s;
+}
+
+button:active
+{
+    background-color: darkgray;
+    border: black solid 2px;
+    transition-duration: 0s;
+}
+
+fieldset
+{
+    border: solid #F64C72 2px;
+}
+
+legend
+{
+    color: #F64C72;
+}
+
+.output
+{
+    float: left;
+    resize: none;
+}
+
+.errorsField
+{
+    float: left;
+}
+
